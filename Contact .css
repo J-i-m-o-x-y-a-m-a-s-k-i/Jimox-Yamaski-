@@ -1,0 +1,111 @@
+header {
+            background-color: #333;
+            padding: 10px 0px;
+          width:100%;
+          position:fixed;
+          top:0;
+          left:0;
+          z-index:1000;
+          
+        }
+  
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding-bottom: 10px;
+          padding-top:30px;
+            border-bottom: 2px solid #eaeaea;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+        }
+
+        .contact-info h2 {
+            color: #555;
+        }
+
+        .contact-info .address,
+        .contact-info .phone,
+        .contact-info .email {
+            margin-bottom: 20px;
+        }
+
+        .contact-info .icon {
+            margin-right: 10px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .contact-info,
+            .contact-form {
+                padding: 10px;
+            }
+
